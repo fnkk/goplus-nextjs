@@ -1,9 +1,9 @@
 import React from "react";
-import { ReactComponent as CompletedIcon } from "./completed.svg";
+import Image from 'next/image';
 
 const SuccessCover = () => (
     <div className="task_box_cover">
-        <CompletedIcon className="complete_logo" />
+        <Image alt="" src={'./completed.svg'} />
     </div>
 );
 

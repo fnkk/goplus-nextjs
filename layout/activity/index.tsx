@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/router';
 import Introduce from '../components/introduce/index'
-import FirstTask from '../components/FirstTask/index'
-import SecondTask from '../components/SecondTask/index'
+// import FirstTask from '../components/FirstTask/index'
+// import SecondTask from '../components/SecondTask/index'
 import ThirdTask from '../components/ThirdTask/index'
 import { getTaskListByAccount, initTaskListByAccount, syncTask } from '../../api/index'
 import ReCAPTCHA from "react-google-recaptcha";

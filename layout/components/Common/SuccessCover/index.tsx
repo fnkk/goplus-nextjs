@@ -1,9 +1,7 @@
 import React from "react";
-import Image from 'next/image';
-
 const SuccessCover = () => (
     <div className="task_box_cover">
-        <Image alt="" src={'./completed.svg'} />
+        <img src="/completed.svg" className="complete_logo" alt="Description" />
     </div>
 );
 

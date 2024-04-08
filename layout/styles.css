@@ -315,4 +315,25 @@ body {
   .styled_link:active {
     text-decoration: none;
   }
-  
+  .task_box_cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(69, 70, 88, 0.5);
+    display: flex;
+    color: rgb(2, 97, 38);
+    font-size: 24px;
+    z-index: 2;
+    border-radius: 28px;
+}
+.complete_logo {
+    width:135px;
+    height: 135px;
+    margin-right: 10px;
+}
+.task_box_relative {
+    position: relative;
+    /* 使遮罩层绝对定位生效 */
+}
